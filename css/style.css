@@ -1,0 +1,287 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* banner */
+.banner {
+	height: 100vh;
+	min-height: 600px;
+	background-image: url("https://i.ibb.co/HNvHSyV/image-header.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.header {
+	padding: 10px 15px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu {
+	font-size: 20px;
+	align-items: center;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.contact-btn {
+	text-transform: uppercase;
+	border: 2px solid rgb(27, 127, 177);
+	border-radius: 15px;
+	padding: 10px 20px;
+	background-color: rgb(27, 127, 177);
+}
+
+.tittle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+.tittle .tittle-text {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* banner */
+
+/* white egg section */
+
+.white-egg-section {
+	display: flex;
+	height: 400px;
+}
+
+.white-egg-section img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-section,
+.image-section {
+	flex: 1;
+}
+
+.white-egg-section .text-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.white-egg-section .text {
+	width: 80%;
+}
+
+.text h1 {
+	text-transform: capitalize;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.text p {
+	margin-bottom: 20px;
+	color: #83818f;
+	line-height: 1.3;
+	font-size: 18px;
+}
+
+.text a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+/* white egg section */
+
+/* pink cup section */
+.pink-cup-section {
+	display: flex;
+	height: 400px;
+}
+
+.text-section,
+.image-section {
+	flex: 1;
+}
+
+.pink-cup-section img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.pink-cup-section .text {
+	width: 80%;
+}
+
+.pink-cup-section .text-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text h1 {
+	text-transform: capitalize;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.text p {
+	margin-bottom: 20px;
+	color: #83818f;
+	line-height: 1.3;
+	font-size: 18px;
+}
+
+.text a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+/* pink cup section */
+
+/* fruits section */
+.fruits-section {
+	display: flex;
+	height: 400px;
+}
+
+.apples,
+.orange {
+	flex: 1;
+}
+
+.apples img,
+.orange img {
+	width: 100%;
+	height: 100%;
+}
+/* fruits section */
+
+/* .testimonials */
+.testimonials-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fffbf8;
+	padding: 50px;
+}
+
+.testimonials-container h1 {
+	text-transform: capitalize;
+	color: #ada1a2;
+	text-align: center;
+	font-size: 35px;
+	margin: 35px 0;
+}
+.client-testimonials {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.client-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.client-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.client-testimonials .client {
+	display: flex;
+	flex-direction: column;
+	flex: 0.3;
+	align-items: center;
+}
+
+.client .client-image {
+	margin: 40px 0;
+}
+.client p {
+	color: #83818f;
+	text-align: center;
+	margin-bottom: 30px;
+	line-height: 1.3;
+}
+
+.client .info {
+	text-align: center;
+}
+
+.info h2,
+.info h3 {
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+
+.info h3 {
+	color: #83818f;
+}
+/* testimonials */
+
+/* sugar stuff */
+.sugar-stuff {
+	display: flex;
+}
+
+.sugar-stuff img {
+	flex: 0.25;
+	width: 100%;
+	height: 100%;
+}
+
+/* sugar stuff */
+
+/* footer */
+.footer {
+	background-color: #98d4c5;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer .logo {
+	margin: 50px 0;
+}
+
+.footer-menu {
+	margin: 30px 0;
+}
+.footer a {
+	text-decoration: none;
+	color: #4f9485;
+	font-weight: bolder;
+	margin-right: 20px;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.social-media-icons {
+	margin: 30px 0;
+}
+
+.social-media-icons a {
+	margin-right: 30px;
+}
+/* footer */
+
+/* responsive designs, media quary */
+
+/* @media (max-width: 375px) {
+	.white-egg-section {
+		flex-direction: column;
+		height: auto;
+	}
+} */
